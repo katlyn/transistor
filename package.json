@@ -1,0 +1,23 @@
+{
+  "name": "transistor",
+  "version": "0.0.1",
+  "description": "An incredibly over-engineered channel-to-channel relay bot for Discord",
+  "scripts": {
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Katlyn Lorimer <open-source@katlyn.dev>",
+  "license": "MIT",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
+  },
+  "type": "module"
+}
