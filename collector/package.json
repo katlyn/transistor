@@ -1,0 +1,24 @@
+{
+  "name": "collector",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "nodemon": "^3.1.0",
+    "pino-pretty": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "env-verifier": "^1.5.0",
+    "oceanic.js": "^1.10.0",
+    "pino": "^8.19.0"
+  },
+  "type": "module"
+}
