@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "Katlyn Lorimer <open-source@katlyn.dev>",
   "license": "MIT",
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",

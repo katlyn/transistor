@@ -1,15 +1,3 @@
 {
-  "ts-node": {
-    "files": true
-  },
-  "include": ["src/**/*.ts"],
-  "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ESNext",
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "strictNullChecks": true,
-    "outDir": "dist"
-  }
+  "extends": "@repo/config/tsconfig.json"
 }
